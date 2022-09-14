@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .seccion{
     display: flex;
@@ -9,7 +10,7 @@
     width: 100%;
 }
 
-.phone{
+.telefono{
    
     display: flex;
     justify-content: center;
@@ -33,7 +34,7 @@ li{
    
 
 }
-.loguito{
+.logo{
     margin-right: 100px;
 }
 nav{
@@ -155,7 +156,7 @@ nav{
     float: left;
     margin: 20px 10% 0px 20%
 }
-.tes{
+.nos{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -182,7 +183,7 @@ nav{
  
  }
 
-.cartas2{
+.cajas2{
     background: #1E172F;
     padding: 30px;
 }
@@ -192,6 +193,7 @@ nav{
     color: #fff;
     font-size: 40px;
     text-align: center;
+   
 }
 
 .encabezado p{
@@ -202,7 +204,7 @@ nav{
 }
 
 
-.carta{
+.caja{
     background: #fff;
     width: 260px;
     font-size: 30px;
@@ -219,7 +221,7 @@ nav{
     background: #F1F2F7;
     padding:10px
 }
-.carta h3{
+.caja h3{
     text-align: center;
     font-size: 20px;
     color: #1E172F;
@@ -227,7 +229,7 @@ nav{
 
 }
 
-.carta p{
+.caja p{
     font-size: 15px;
    
 }
@@ -244,29 +246,29 @@ nav{
     text-align: center;
 }
 
-.carta ul li{
+.caja ul li{
   font-size: 17px;
   list-style: none;
   
 
 }
 
-.carta .textico{
+.caja .texto{
     text-align: center;
     font-size: 17px;
     margin: 10px 50px 10px 50px;
 }
-.carta .imagen{
+.caja .imagen{
     display: flex;
     justify-content: center;
 }
-.carta .imagen img{
+.caja .imagen img{
     width: 70px;
     height: 70px;
 }
 
 
-.cartas{
+.cajas{
     margin-top: 40px;
     display: flex;
     justify-content: center;
@@ -317,7 +319,7 @@ footer .suscribe{
     }
 }
 
-@media (max-width:750px) {
+@media (max-width:950px) {
    
     .seccion{
         background-position: center;
@@ -372,7 +374,7 @@ footer .suscribe{
     padding-left: 25%;
     margin: 30px 20px 50px 30px;
    }
-   .compu{
+   .pc{
     padding: 20px;
     background: #1E172F;
     border-radius: 50%;
@@ -381,7 +383,7 @@ footer .suscribe{
     justify-content: center;
    }
 
-    .compu img{
+    .pc img{
         margin: 20px 50px 20px 30px ;
     }
     .encabezado{
@@ -396,10 +398,11 @@ footer .suscribe{
     .encabezado p{
         margin: 10px 25% 10px 40px;
     }
-    .cartas{
+    .cajas{
         display: flex;
         flex-direction: column;
         margin: 10px 25%;
     }
+    
     
 }
